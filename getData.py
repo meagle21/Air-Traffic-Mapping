@@ -5,6 +5,8 @@ import time
 
 class getData:
 
+    """This class gets the list of pertainant flight data from the OpenSky Network API service over the Switzerland area"""
+    
     def __init__(self):
         self.url = "https://opensky-network.org/api/states/all?lamin=45.8389&lomin=5.9962&lamax=47.8229&lomax=10.5226"
         self.flightList = ""
