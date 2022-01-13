@@ -3,6 +3,8 @@ import csv
 from datetime import *
 
 class updateCSV:
+    
+    """This class reads in the flight data and saves it to the csv file in the appropriate format."""
 
     def __init__(self):
         self.fileName = "planePosition.csv"
